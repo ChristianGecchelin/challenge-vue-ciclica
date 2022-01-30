@@ -24,8 +24,6 @@ html {
 
   font-family: "DM Sans", sans-serif;
 }
-#app {
-}
 .body {
   margin: 0;
   padding: 0;

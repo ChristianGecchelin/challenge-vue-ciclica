@@ -2,12 +2,12 @@
   <nav>
     <div class="title-container">
       <span><img src="@/assets/marker.png" /></span>
-      <a href=""><h1>Challenge</h1></a>
+      <router-link to="/"><h1>Challenge</h1></router-link>
     </div>
     <div class="links-container">
       <ul>
-        <a href=""><li>Home</li></a>
-        <a href=""><li>Form</li></a>
+        <router-link to="/"><li>Home</li></router-link>
+        <router-link to="form"><li>Form</li></router-link>
       </ul>
     </div>
   </nav>
