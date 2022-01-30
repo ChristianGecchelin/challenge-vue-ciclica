@@ -1,6 +1,6 @@
 <template>
   <section class="section-flex">
-    <div class="map-container"></div>
+    <Map />
     <div class="text-container">
       <h2 class="text-title">Comprueba una ubicación !</h2>
       <p class="principal-text">
@@ -13,9 +13,10 @@
   </section>
 </template>
 <script>
+import Map from "@/components/Map";
 export default {
   name: "PxMap",
-  components: {},
+  components: { Map },
 };
 </script>
 
